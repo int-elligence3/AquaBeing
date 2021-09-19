@@ -1,4 +1,13 @@
 
+/* Navbar logo */
+
+#logo.img{
+    text-align: left;
+    padding-right: 0.1rem;
+    padding-top: 0.1rem;
+
+}
+
 /* footer------------------------------------ */
 
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
