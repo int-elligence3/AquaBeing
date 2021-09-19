@@ -124,26 +124,7 @@
 
   </section>
 
-  <script type="text/javascript">
-    var animateButton = function (e) {
-
-      e.preventDefault;
-      //reset animation
-      e.target.classList.remove('animate');
-
-      e.target.classList.add('animate');
-      setTimeout(function () {
-        e.target.classList.remove('animate');
-      }, 700);
-    };
-
-    var bubblyButtons = document.getElementsByClassName("bubbly-button");
-
-    for (var i = 0; i < bubblyButtons.length; i++) {
-      bubblyButtons[i].addEventListener('click', animateButton, false);
-    }
-  </script>
-
+  <script src="js/vol.js"></script>
   <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
