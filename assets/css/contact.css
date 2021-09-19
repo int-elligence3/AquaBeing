@@ -251,7 +251,7 @@ footer {
   
 }
 footer div {
-  background-color:#8283a7;
+  background-color:#4E8D94;
   margin: -5px 0px 0px 0px;
   padding:0px;
   color: #fff;
@@ -264,12 +264,12 @@ svg {
 .wave {
   animation: wave 3s linear;
   animation-iteration-count:infinite;
-  fill: #8283a7;
+  fill: #4E8D94;
 }
 .drop {
   fill: transparent;
   animation: drop 5s ease infinite normal;
-  stroke: #8283a7;
+  stroke: #4E8D94;
   stroke-width:0.5;
   opacity:.6; 
   transform: translateY(80%);
