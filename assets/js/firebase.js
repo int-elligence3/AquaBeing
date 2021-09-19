@@ -3,14 +3,13 @@
 //   firebase
 
 var firebaseConfig = {
-    apiKey: "AIzaSyD5PRI0eqBYwuXQPtd1RRKHNuAWcw8PYnI",
-    authDomain: "contactform-e7f07.firebaseapp.com",
-    databaseURL: "https://contactform-e7f07-default-rtdb.firebaseio.com",
-    projectId: "contactform-e7f07",
-    storageBucket: "contactform-e7f07.appspot.com",
-    messagingSenderId: "71270380712",
-    appId: "1:71270380712:web:ca0b04c1788ea74818fe9d",
-    measurementId: "G-78Y0T1BYTV"
+  apiKey: "AIzaSyAEM5vbhUuAqV5IdUVok7QRr8lNUgu7vTI",
+  authDomain: "aquabeing-725f5.firebaseapp.com",
+  projectId: "aquabeing-725f5",
+  storageBucket: "aquabeing-725f5.appspot.com",
+  messagingSenderId: "617068516936",
+  appId: "1:617068516936:web:7d3522ba982a4e73d76a7d",
+  measurementId: "G-PH58DKGF4P"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
