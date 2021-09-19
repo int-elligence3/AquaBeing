@@ -4,19 +4,20 @@
 }
 body {
   margin: 0;
-  background: url("https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif");
+  background: #215D66;
+  /*background: url("https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif");*/
   background-size: cover;
 }
 
-
-
+/*Navbar*/
 #logo.img{
     text-align: left;
-    padding-right: 0.1rem;
-    padding-top: 0.1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
 
 }
 
+/*CARASOLE*/
 .carasole.img{
    display: block;
   margin-left: auto;
@@ -24,7 +25,62 @@ body {
   width: 50%;
   }
 
-  /* footer------------------------------------ */
+
+      /*About US*/
+.about-us h1{
+  text-align: center;
+  background: linear-gradient(
+    to right, 
+    hsl(98 100% 62%), 
+    hsl(204 100% 59%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.about-us p{
+  text-decoration-color: white;
+}
+p{
+  color: white;
+}
+
+.float-container {
+    /*border: 3px solid #fff;*/
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    padding: 20px;
+    float: right;
+    /*border: 2px solid red;*/
+}  
+
+
+/*PARALAAX EFFECT*/
+.parallax {
+  /* The image used */
+  /*https://images.unsplash.com/photo-1470217407524-b1e77afc6ec5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80*/
+  background-image: url('../images/Blue-Wood.png');
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+/* footer------------------------------------ */
 
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
 
@@ -48,7 +104,7 @@ footer {
   
 }
 footer div {
-  background-color:#4478e3;
+  background-color:#4E8D94;
   margin: -5px 0px 0px 0px;
   padding:0px;
   color: #fff;
@@ -61,12 +117,12 @@ svg {
 .wave {
   animation: wave 3s linear;
   animation-iteration-count:infinite;
-  fill: #4478e3;
+  fill: #4E8D94;
 }
 .drop {
   fill: transparent;
   animation: drop 5s ease infinite normal;
-  stroke: #4478e3;
+  stroke: #4E8D94;
   stroke-width:0.5;
   opacity:.6; 
   transform: translateY(80%);
@@ -140,3 +196,7 @@ size: 50px;
 @keyframes wave {
   to {transform: translateX(-100%);}
 }
+
+
+
+
