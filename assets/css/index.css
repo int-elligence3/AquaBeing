@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  /*overflow: hidden;*/
+}
+body {
+  margin: 0;
+  background: #000;
+  background-size: cover;
+}
+
+
+
+#logo.img{
+    text-align: left;
+    padding-right: 0.1rem;
+    padding-top: 0.1rem;
+
+}
+
+.carasole.img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
