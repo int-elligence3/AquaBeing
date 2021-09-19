@@ -1,12 +1,4 @@
 
-// Log out feature
-
-if (localStorage.getItem("userLogin") == null) {
-    document.getElementById("profile").style.display = "none";
-}
-else {
-    document.getElementById("profile").style.display = "block";
-}
 
 //   firebase
 
@@ -24,5 +16,3 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
-var github = 0;
-var googlelogin = 0;
