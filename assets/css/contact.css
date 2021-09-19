@@ -16,21 +16,11 @@ body {
 }
 
 
+#logo.img{
+  text-align: left;
+  padding-right: 0.1rem;
+  padding-top: 0.1rem;
 
-
-header {
-  position: fixed;
-  width: 100%;
-  text-align: right;
-  color: white;
-  transition: .4s;
-}
-
-.navbar img{
-    text-align: left;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    /* height: 60px; */
 }
 
 /* -------------------navbar end----------------------- */
